@@ -3,7 +3,7 @@ form.addEventListener('submit', function(event) {
  const nombre = document.getElementById('nombre').value;
  const email = document.getElementById('email').value;
  const imagen=document.getElementById('imagen').value();
- const password=document.getElementById('imagen').value().trim();
+ let password=document.getElementById('imagen').value().trim();
  if (nombre=="" || email==""|| imagen=="" || password=="") {
  alert('Por favor, ingrese todos los datos correspondientes. Son obligatorios');
  event.preventDefault();
