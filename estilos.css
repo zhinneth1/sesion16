@@ -87,6 +87,9 @@ img{
     max-width: 100%;
     border-radius: 2px;
 }
+footer{
+    background-color: cornflowerblue;
+}
 
 @media (max-width: 768px) {
     nav ul {
