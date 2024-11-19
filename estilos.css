@@ -43,9 +43,8 @@ nav ul{
     background-color: chartreuse;
 	list-style-type: none;
 	padding: 0;
-    display: flex;
-    gap: 1em;
-    margin: 10%;
+    margin: 0;
+    text-align: center;
 }
 nav a:hover{
     color: chocolate;
