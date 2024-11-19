@@ -90,8 +90,7 @@ img{
 }
 footer{
     background-color: cornflowerblue;
-    padding: 10%;
-    margin-top: 100px
+    padding: 10%
 }
 
 @media (max-width: 768px) {
