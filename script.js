@@ -1,4 +1,4 @@
-function formulario(){
+function container(){
     let nombre=document.getElementById("nombre").value.trim();
     let email=document.getElementById("correoelectronico").value.trim();
     let imagen=document.getElementById("imagen").value();
