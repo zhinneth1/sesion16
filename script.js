@@ -1,10 +1,10 @@
 document.getElementById('formulario').addEventListener('submit', function(event){
     const nombre=document.getElementById('nombre').value.trim();
-    const correoelectronico=document.getElementById('correoelectronico').value.trim();
+    const email=document.getElementById('correoelectronico').value.trim();
     const imagen=document.getElementById('imagen').value();
    
 
-    if(!nombre=="" || !correoelectronico==""|| !imagen==""){
+    if(!nombre=="" || !email==""|| !imagen==""){
         alert('Por favor, ingrese todos los datos correspondientes. Son obligatorios');
         ;
     }
