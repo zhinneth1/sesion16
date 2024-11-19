@@ -17,6 +17,31 @@ h1 {
     text-align: center;
     color: white;
 }
+nav{
+	margin: 50px;
+    align-items: center;
+    max-width: 1200px;
+    padding: 0 1em;
+    justify-content: space-between;
+}
+nav ul li{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+	display: inline;
+	margin-right: 50px;
+}
+nav ul li:hover{
+	color: chocolate;
+}
+nav ul{
+	list-style-type: none;
+	padding: 0;
+    display: flex;
+    gap: 1em;
+}
+nav a:hover{
+    color: chocolate;
+}
 label {
     display: block;
     margin: 10px 0 5px;
@@ -37,4 +62,22 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
     background-color: #45a049;
+}
+@media (max-width: 768px) {
+    nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #333;
+    }
+    nav ul li a {
+    padding: 1em;
+    text-align: center;
+    }
+    #nav-toggle {
+    display: block;
+    }
+    .nav-open ul {
+    display: flex;
+    }
 }
