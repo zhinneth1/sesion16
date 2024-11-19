@@ -8,6 +8,7 @@ document.getElementById('formulario').addEventListener('submit', function(event)
         alert('Por favor, ingrese todos los datos correspondientes. Son obligatorios');
         return false;
     }
+    return true;
 });
 
 function mostrarImagen(event){
