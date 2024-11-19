@@ -1,7 +1,7 @@
 function validarform(){
-    let nombre=document.getElementById("nombre").value.trim();
-    let email=document.getElementById("email").value.trim();
-    let imagen=document.getElementById("imagen").value();
+    let nombre=document.getElementById('nombre').value.trim();
+    let email=document.getElementById('email').value.trim();
+    let imagen=document.getElementById('imagen').value();
     if(nombre=="" || email==""|| imagen==""){
         alert("Por favor, ingrese todos los datos correspondientes. Son obligatorios");
         return false;
