@@ -45,6 +45,7 @@ nav ul{
 	padding: 0;
     display: flex;
     gap: 1em;
+    margin: 10%;
 }
 nav a:hover{
     color: chocolate;
@@ -89,6 +90,8 @@ img{
 }
 footer{
     background-color: cornflowerblue;
+    padding: 50%;
+    margin-top: 100px
 }
 
 @media (max-width: 768px) {
