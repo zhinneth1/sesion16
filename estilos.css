@@ -89,9 +89,8 @@ img{
     border-radius: 2px;
 }
 footer{
-    background-color: cornflowerblue;
-    padding: 10%
-}
+    background-color: cornflowerblue;}
+    
 
 @media (max-width: 768px) {
     nav ul {
