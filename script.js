@@ -3,7 +3,7 @@ function container(){
     let email=document.getElementById("correoelectronico").value.trim();
     let imagen=document.getElementById("imagen").value();
    
-    if(!nombre=="" || !email==""|| !imagen==""){
+    if(nombre=="" || email==""|| imagen==""){
         alert('Por favor, ingrese todos los datos correspondientes. Son obligatorios');
         return false;
     }
