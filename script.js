@@ -6,9 +6,8 @@ document.getElementById('formulario').addEventListener('submit', function(event)
 
     if(!nombre=="" || !correoelectronico==""|| !imagen=="" || !pass==""){
         alert('Por favor, ingrese todos los datos correspondientes. Son obligatorios');
-        return false;
+        return ;
     }
-    return true;
 });
 
 function mostrarImagen(event){
