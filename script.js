@@ -1,4 +1,4 @@
-const form = document.getElementById('formulario');
+const form = document.getElementById('forms');
 form.addEventListener('submit', function(event) {
  const nombre = document.getElementById('nombre').value;
  const email = document.getElementById('email').value;
