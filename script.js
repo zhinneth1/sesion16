@@ -1,8 +1,8 @@
 document.getElementById('formulario').addEventListener('submit', function(event){
-    let nombre=document.getElementById('nombre').Value.trim();
-    let correo=document.getElementById('correo').Value.trim();
-    let imagen=document.getElementById('imagen').Value().trim();
-    let pass=document.getElementById('pass').Value().trim();
+    let nombre=document.getElementById('nombre').value.trim();
+    let correo=document.getElementById('correo').value.trim();
+    let imagen=document.getElementById('imagen').value().trim();
+    let pass=document.getElementById('pass').value().trim();
 
     if(!nombre=="" || !correo==""|| !imagen=="" || !pass==""){
         alert('Por favor, ingrese todos los datos correspondientes. Son obligatorios');
