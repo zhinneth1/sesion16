@@ -1,6 +1,6 @@
 document.getElementById('formulario').addEventListener('submit', function(event){
     const nombre=document.getElementById('nombre').value.trim();
-    const correoelectronico=document.getElementById('correo').value.trim();
+    const correoelectronico=document.getElementById('correoelectronico').value.trim();
     const imagen=document.getElementById('imagen').value();
     const pass=document.getElementById('pass').value().trim();
 
