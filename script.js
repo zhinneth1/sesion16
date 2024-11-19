@@ -3,7 +3,7 @@ document.getElementById('formulario').addEventListener('submit', function(event)
     const correoelectronico=document.getElementById('correoelectronico').Value.trim();
     const imagen=document.getElementById('imagen').Value().trim();
 
-    if(!nombre=="" || correoelectronico=="" || imagen==""){
+    if(!nombre || !correoelectronico|| !imagen){
         alert('Por favor, ingrese todos los datos correspondientes. Son obligatorios');
         event.preventDefault();
         return;
