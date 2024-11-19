@@ -14,7 +14,7 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .imagen1{
-    width: 120px;
+    width: auto;
     border-radius: 7%;
     display: block;
     border: 2px solid greenyellow;
