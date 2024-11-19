@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>laboratorio 16</title>
+    <title>laboratorio 16-Formulario</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
@@ -16,26 +16,24 @@
             </ul>
         </nav>
     </header>
-    <div>
         <form class="container" id="formulario">
             <h1>Formulario</h1>
             <hr>
             <fieldset>
                 <legend>Datos de registro</legend>
                 <label>*Nombre</label>
-                <input type="text" name="nombre" required="">
+                <input type="text" name="nombre" required>
                 <label>*Correo electronico</label>
-                <input type="email" id="correo" name="correoelectronico" required="">
+                <input type="email" id="correoelectronico" name="correoelectronico" required>
                 <label>*Contraseña</label>
-                <input type="password" id="pass" name="contrasena" required="" minlength="7">
+                <input type="password" id="pass" name="contrasena" required minlength="7">
                 <label for="imagen">*Subir Imagen para su perfil</label>
-                <input type="file" id="imagen" name="imagens" accept="png,gif,jpg" onchange="mostrarImagen(event)">
+                <input type="file" id="imagen" name="imagen" accept=".png,.gif,.jpg" onchange="mostrarImagen(event)">
                 <img id="ver-imagen" alt="Vista previa">
                 <button type="submit" id="btn1">Registrar</button>
                 </fieldset>
-            <p>*Campos requeridos, ingresar</p>
+            <p>*Campos requeridos</p>
         </form>
-        </div> 
         <script src="script.js"></script>
         <footer>
             <hr>
