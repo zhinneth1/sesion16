@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>laboratorio 16</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario</h1>
+        <form>
+            <fieldset>
+                <legend>Datos de registro</legend>
+                <label>*Nombre</label>
+                <input type="text" name="Nombre" required="">
+                <label>*Correo electronico</label>
+                <input type="email" name="Correo electronico">
+                <label>*Celular</label>
+                <input type="number" name="Celular" required="" minlength="10" maxlength="10">
+                <label>mensaje</label>
+                <textarea id="mensaje" rows="5"></textarea>
+                    <label>*País</label>
+                    <select>
+                        <option value="" disabled="" selected="">Elija país de origen</option>
+                        <option value="CO">Colombia</option>
+                        <option value="ME">Mexico</option>
+                        <option value="VE">Venezuela</option>
+                        <option value="ARG">Argentina</option>
+                        <option value="OT">Otros</option>
+                    </select>
+                <button >Registrar</button>
+                <button type="reset">Cancelar</button>
+                <button type="reset">Borrar</button>
+            </fieldset>
+                <fieldset>
+                    <legend>Datos de usuario</legend>
+                    <label>*Usuario</label>
+                    <input type="text" name="usuario" required="">
+                    <label>*Contraseña</label>
+                    <input type="password" name="Contraseña" required="" minlength="7">
+                    <label>*Confirmar contraseña</label>
+                    <input type="password" name="Confirmarcontraseña" required="" minlength="7">
+                    <input type="submit" name="" value="Entrar">
+                </fieldset>
+            <p>*Campo requerido</p>
+        </form>
+        </div> 
+</body>
+</html>
