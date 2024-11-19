@@ -19,8 +19,6 @@
         <form class="formulario" onsubmit="return validarform">
             <h1>Formulario</h1>
             <hr>
-            <fieldset>
-                <legend>Datos de registro</legend>
                 <label>*Nombre: </label>
                 <input type="text" name="nombre" name="nombre">
                 <label>*Correo electronico: </label>
@@ -31,7 +29,6 @@
                 <input type="file" id="imagen" name="imagen" accept=".png,.gif,.jpg" onchange="mostrarImagen(event)">
                 <img id="ver-imagen" class="imagen1" alt="Vista previa">
                 <button type="submit" id="btn1">Registrar</button>
-                </fieldset>
             <p>*Campos requeridos</p>
         </form>
         <script src="script.js"></script>
