@@ -75,6 +75,12 @@ button{
 button:hover{
     color: cyan;
 }
+img{
+    display: block;
+    margin-top: 10px;
+    max-width: 100%;
+    border-radius: 2px;
+}
 
 @media (max-width: 768px) {
     nav ul {
