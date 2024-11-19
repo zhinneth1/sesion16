@@ -2,6 +2,12 @@ document.getElementById('formulario').addEventListener('submit', function(event)
     const nombre=document.getElementById('nombre').Value.trim();
     const correo=document.getElementById('correo').Value.trim();
     const imagen=document.getElementById('imagen').Value.trim();
+
+    if(!nombre=="" || correo=="" || imagen==""){
+        alert('Por favor, ingrese todos los datos correspondientes. Son obligatorios');
+        event.preventDefault();
+        return;
+    }
 });
 
 function mostrarImagen(event){
